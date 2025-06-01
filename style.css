@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e40af; /* Badge blue */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #4f46e5; /* Tailwind indigo-600 */
+  display: block;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.year-footer {
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.contact a {
+  color: #ec4899; /* Tailwind pink-500 */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact a:hover {
+  color: #be185d; /* Tailwind pink-800 for hover */
+  text-decoration: underline;
+}
+
+.call-btn {
+  background-color: #22d3ee; /* Tailwind cyan-400 */
+  color: #1e293b; /* Tailwind slate-800 */
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 9999px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(30, 64, 175, 0.08);
+}
+
+.call-btn:hover {
+  background-color: #06b6d4; /* Tailwind cyan-600 */
+  color: #fff;
+}
+
+h1, h2 {
+  font-weight: bold;
+  font-size: 2rem; /* 32px for h1, you can adjust if needed */
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.25rem; /* 20px */
+}
